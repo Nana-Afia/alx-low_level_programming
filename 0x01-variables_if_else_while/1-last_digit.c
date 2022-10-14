@@ -1,9 +1,10 @@
 #include <stdlib.h>
+#include <stdio.>
 #include <time.h>
 /**
  * main-program entry point
  *
- * Return: 0 if no error, non-zero value if error
+ * Return:0 if no error, non-zero value if error
  */
 int main(void)
 {

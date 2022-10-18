@@ -1,13 +1,20 @@
-#include <main.h>
+#include "main.h"
+
 /**
- * main-entry program
- * Return:0 if success, non zero for error
+ * main-print putchar and a new line
+ * Return: Always 0
  */
-int main(void);
+int main(void)
 {
-	putchar()
-	{
-		_putchar
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }

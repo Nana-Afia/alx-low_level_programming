@@ -1,15 +1,17 @@
 #include "main.h"
-#include <stdio.h>
+
+
 /**
  * _strcat - concatenate two strings
- * @dest: destination string
- * @src: source string
+ * @dest: copy from
+ * @src: copy to
  * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {
 	int a;
 	int b;
+
 
 	a = 0;
 	while (dest[a] != '\0')

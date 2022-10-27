@@ -6,16 +6,17 @@
  * @n: number of elements of the array
  * Return: rev
  */
-void reversse_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
-	int a;
-	int b;
+	int i;
+	int j;
 
-	for (a = 0; a < n; a++)
+
+	for (i = 0; i < n; i++)
 	{
 		n--;
-		b = x[a];
-		x[a] = a[n];
-		x[n] = b;
+		j = a[i];
+		a[i] = a[n];
+		a[n] = j;
 	}
 }	

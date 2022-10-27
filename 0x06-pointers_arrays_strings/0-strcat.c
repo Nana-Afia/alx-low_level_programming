@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * _strcat - concatenate two strings
- * @*dest: destination string
- * @*src: source string
- * Return: always return 0
+ * @dest: destination string
+ * @src: source string
+ * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {

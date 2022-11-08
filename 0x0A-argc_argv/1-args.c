@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - print name of the program
  * @argc: counts argument
- * @argv: Arguments
+ * @argv:Arguments
  */
 int main(int argc, char *argv[])
 {
 	(void) argc;
-	printf("%s\n", argv[0]);
+	printf("%i\n", argc - 1);
 
 	return (0);
-
 }

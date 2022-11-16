@@ -10,7 +10,7 @@
  * or -1 if no match is found or size is negative
  */
 
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 

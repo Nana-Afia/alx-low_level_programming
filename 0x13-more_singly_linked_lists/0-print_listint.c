@@ -1,4 +1,4 @@
-#include "lsts.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**

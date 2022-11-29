@@ -5,6 +5,7 @@
  * at the end of the list
  * @head: a pointer to the address of
  * the head of listint_t list.
+ * @n: Then integer for the new node to contain
  *
  * Return: If the function fails - NULL.
  * Otherwise - the address of the new element.
@@ -26,9 +27,9 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		last = *head;
 		while (last->next != NULL)
-		       last = last->next;
+			last = last->next;
 		last->next = new;
 	}
 
-	return (*head)
-}	
+	return (*head);
+}
